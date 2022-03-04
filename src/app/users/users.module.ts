@@ -15,6 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 import { AboutComponent } from './about/about.component';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 
@@ -40,6 +41,7 @@ import { AboutComponent } from './about/about.component';
     ReactiveFormsModule,
     MatButtonModule,
     MatTableModule,
+    MatPaginatorModule
    
     
      ]
