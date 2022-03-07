@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     background: #00aae5;
-    color: #fff;
+    color: rgb(100, 82, 82);
     text-shadow: 1px 2px 2px #117da8;
     display: flex;
     justify-content: center;
@@ -23,5 +23,11 @@ body {
  .listyle
  {
 
-  padding-top: 12px;
+  padding-top: 18px;
  }
+ .menuitem {
+  color: green;
+  box-shadow: inset 0 -3px 0 0 red;
+  box-shadow: none;
+}
+ 
