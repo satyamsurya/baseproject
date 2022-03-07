@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './layout/home/home.component';
 import { SigninComponent } from './layout/signin/signin.component';
 import { SignupComponent } from './layout/signup/signup.component';
 import { AboutComponent } from './users/about/about.component';
@@ -24,7 +25,8 @@ const routes: Routes = [
     
     path: 'users',
     children: [
-      { path: '', component: ListUsersComponent },
+
+      { path: 'home', component: HomeComponent },
       { path: 'login', component: SigninComponent },
       { path: 'signup', component: SignupComponent },
       { path: 'list', component: ListUsersComponent },
